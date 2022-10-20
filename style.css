@@ -1,0 +1,177 @@
+/* Aqui teremos todo nosso Css, ou seja, nosso estilo */
+
+/* Color Theme Swatches First */
+.Blanket-1-hex { color: #3E3C3C; }
+.Blanket-2-hex { color: #262528; }
+.Blanket-3-hex { color: #D9DADA; }
+.Blanket-4-hex { color: #B89368; }
+.Blanket-5-hex { color: #D9DADA; }
+
+/* Color Theme Swatches Secund */
+.UI/UX-1-hex { color: #3E3E40; }
+.UI/UX-2-hex { color: #BDBDBF; }
+.UI/UX-3-hex { color: #F0F0F2; }
+.UI/UX-4-hex { color: #64758C; }
+.UI/UX-5-hex { color: #0D0D0D; }
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 500;
+    text-align: center;
+    color: #21242C;
+}
+h2, h1{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+p{
+    text-align: center;
+    text-indent: 20px;
+    padding: 5px;
+    font-size: 17px;
+    max-width: 700px;
+}
+a{
+    text-decoration: none;
+}
+abbr{
+    text-decoration: none;
+}
+hr{
+    margin: 55px 0px;
+}
+
+/*!----------------------------------------*/
+
+header{
+    background-color: #D9DADA;
+    text-align: center;
+    padding: 7px;
+}
+header img{
+    width: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+.logos{
+    display: inline-block;
+}
+#html img:hover{
+    background-color: #E44D26;
+    border-radius: 20%;    
+    transition: 1s;
+}
+#css img:hover{
+    background-color: #1C76B8;
+    border-radius: 20%;
+    transition: 1s;
+}
+#javascript img{
+    width: 37px;
+    padding: 4px 11px;
+}
+#javascript img:hover{
+    background-color: #F0BE25;
+    border-radius: 20%;
+    transition: 1s;
+}
+nav{
+    background-color: #64758C;
+    text-align: center;
+}
+nav a{
+    color: #0D0D0D;
+    display: none;      /*Lembrar dos links*/
+}
+#menu img{
+    width: 50px;
+}
+#menu img:hover{
+    background-color: rgba(0, 0, 0, 0.100);
+    border-radius: 20%;
+    margin: 5px;
+    transition: 1s;
+}
+
+/*!-----------------------------------------*/
+
+main{
+    margin: auto;
+    padding: 0px 15px;
+    min-width: 400px;
+    max-width: 800px;
+}
+.caixas_main{
+    margin: 40px 0px;
+}
+main img{
+    width: 400px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.274);
+    margin: 25px 0px;
+}
+#texto_01 h1{
+    font-size: 28px;
+}
+#texto_01 a:hover{
+    text-decoration: underline;
+}
+.caixas{
+    background-color: #d6d6d688;
+    margin: 5px;
+    max-width: 120px;
+    padding: 35px; 
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+.caixas_texto h3, abbr{
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+.caixas_texto p{
+    width: 200px;
+    font-size: 15px;   
+    text-align: center; 
+    max-width: 180px;
+    position: relative;
+    right: 35px;
+}
+#lista_01 ul{
+    margin: 5px;
+    padding-left: 36%;
+}
+#lista_01 li{
+    text-align: left;
+}
+#lista_texto{
+    text-align: center;
+}
+
+/*!---------------------------------------*/
+
+footer{
+    background-color: #111111;
+}
+#redes_sociais{
+    text-align: center;
+    padding: 30px;
+}
+#redes_sociais span{
+    color: #F0F0F2;
+    font-weight: 300;
+}
+#linkedin img{
+    position: relative;
+    top: 11px;
+    height: 54px;
+}
+#github img{
+    border-radius: 15%;
+}
